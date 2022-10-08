@@ -2,7 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: "next/build",
+  distDir: "build",
+  images: {
+    loader: "akamai",
+    path: "./",
+  },
 };
 
 module.exports = nextConfig;
