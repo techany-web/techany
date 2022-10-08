@@ -25,8 +25,8 @@ function Banner() {
         {/* search input full width */}
         <div className="flex justify-center">
           <div
-            className="flex text-lg w-[360px] duration-500 items-center p-5 space-x-2 bg-white rounded-full shadow-md
-          focus-within:w-[500px] focus-within:ring-2 focus-within:shadow-2xl focus-within:shadow-purple-900 ring-rose-400 "
+            className="flex text-lg w-72 md:w-[360px]  duration-500 items-center p-5 space-x-2 bg-white rounded-full shadow-md
+          focus-within:w-96 md:focus-within:w-[500px] focus-within:ring-2 focus-within:shadow-2xl focus-within:shadow-purple-900 ring-rose-400 "
           >
             <input
               type="text"

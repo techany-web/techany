@@ -7,8 +7,8 @@ import ActionButton from "../Atoms/ActionButton";
 function Navbar() {
   return (
     <nav
-      className="flex z-50 order-last md:order-first flex-col sticky bottom-0 md:top-0 text-center col-span-12 w-full mx-auto p-5
-    md:flex-row md:justify-around bg-white "
+      className="grid grid-cols-12 z-50 order-last md:order-first flex-col sticky bottom-0 md:top-0 text-center col-span-12 w-full mx-auto p-5
+    md:flex-row md:justify-around bg-white"
     >
       <div className="hidden md:inline col-span-2 my-5 cursor-pointer md:my-0">
         <Link href="/#top">
@@ -16,15 +16,15 @@ function Navbar() {
         </Link>
       </div>
       <div
-        className="flex justify-between text-xs col-span-10 items-center
-      md:space-x-1 md:justify-around md:items-center"
+        className="flex items-center justify-evenly text-xs col-span-12 md:col-span-10
+      md:space-x-3 md:justify-end md:items-center"
       >
         <span className=" md:hidden cursor-pointer">
           <Link href="/#top">
             <Image src={logo} alt="logo" width={117} height={30} />
           </Link>
         </span>
-        <ActionButton title="Create a Resume" style="" url="/#resume" />
+        <ActionButton title="Add Resume" style="" url="/#resume" />
         <ActionButton title="Contact" style="" url="/#contact" />
 
         <span className="hidden md:inline">
