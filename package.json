@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "git add . && next build && next export && git push origin main",
-    "deploy": "git add . && npm ci && npm run build && git commit -m main && git push origin main"
+    "deploy": "git add . && npm ci && npm run build && git commit -m main && git push origin main && firebase deploy"
   },
   "dependencies": {
     "firebase": "^9.11.0",
