@@ -33,6 +33,9 @@ function Navbar() {
         <span className="">
           <ActionButton title="Add" style="primary" url="#" />
         </span>
+        <span className="md:hidden">
+          <ActionButton title="Top" style="" url="#" />
+        </span>
       </div>
     </nav>
   );
