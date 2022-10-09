@@ -9,12 +9,13 @@ import Blog from "../Organisms/Blog";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="w-full">
       {/* Header */}
       <Header />
-
-      {/* navbar */}
-      <Navbar />
+      <div className="w-full order-last md:order-first fixed bottom-0 top-auto md:top-0 md:bottom-auto">
+        {/* navbar */}
+        <Navbar />
+      </div>
 
       <div className="w-full bg-local z-0  scrollbar-hide">
         <div id="top"></div>
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
         {/* Footer */}
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 
