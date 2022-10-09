@@ -11,7 +11,7 @@ function Navbar() {
     md:flex-row md:justify-around md:shadow-lg md:shadow-black md:drop-shadow-xl"
     >
       <div className="hidden md:inline col-span-2 my-5 cursor-pointer md:my-0">
-        <Link href="/#top">
+        <Link href="#">
           <Image src={logo} alt="logo" width={194} height={50} />
         </Link>
       </div>
@@ -19,11 +19,11 @@ function Navbar() {
         className="flex items-center justify-between space-x-0 text-xs col-span-12 md:col-span-10 md:max-w-7xl
       md:space-x-3 md:justify-end md:items-center"
       >
-        <span className=" md:hidden cursor-pointer">
-          <Link href="/#top">
+        {/* <span className=" md:hidden cursor-pointer">
+          <Link href="#">
             <Image src={logo} alt="logo" width={78} height={20} />
           </Link>
-        </span>
+        </span> */}
         <ActionButton title="Add Resume" style="" url="/#resume" />
         <ActionButton title="Contact" style="" url="/#contact" />
 
