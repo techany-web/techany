@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav
       className="grid grid-cols-12 z-50 order-last md:order-first flex-col absolute bottom-0 md:top-0 md:bottom-auto text-center col-span-12 w-full mx-auto p-5
-    md:flex-row md:justify-around bg-white"
+    md:flex-row md:justify-around bg-white md:shadow-lg md:shadow-black md:drop-shadow-xl"
     >
       <div className="hidden md:inline col-span-2 my-5 cursor-pointer md:my-0">
         <Link href="/#top">
