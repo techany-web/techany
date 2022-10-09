@@ -11,11 +11,11 @@ function ContactForm() {
       bg-techany-50"
     >
       <TitleWhites title="Contact us" style="gradient" />
-      <form className=" max-w-7xl m-10 grid grid-cols-2 gap-8">
+      <form className=" max-w-7xl m-10 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="block col-span-1">
           <label>
             <input
-              className=" text-gray-600 rounded-full p-3 w-44 focus-within:w-72 duration-500 ease-in-out"
+              className=" text-gray-600 rounded-full p-3 w-60 md:w-44 focus-within:w-72 duration-500 ease-in-out"
               placeholder="Your Full Name"
             />
           </label>
@@ -23,16 +23,16 @@ function ContactForm() {
         <div className="block col-span-1">
           <label>
             <input
-              className=" text-gray-600 rounded-full p-3 w-44 focus-within:w-72 duration-500 ease-in-out valid:border-green-300 invalid:border-red-300 "
+              className=" text-gray-600 rounded-full p-3 w-60 md:w-44 focus-within:w-72 duration-500 ease-in-out valid:border-green-300 invalid:border-red-300 "
               placeholder="Your Email Address"
               type="email"
             />
           </label>
         </div>
-        <div className="block col-span-2">
+        <div className="block col-span-1 md:col-span-2">
           <label>
             <textarea
-              className=" text-gray-600 rounded-2xl p-3 w-96 h-60 focus-within:h-72 duration-500 ease-in-out valid:border-green-300 invalid:border-red-300 "
+              className=" text-gray-600 rounded-2xl p-3 w-60 md:w-96 h-60 focus-within:h-72 duration-500 ease-in-out valid:border-green-300 invalid:border-red-300 "
               placeholder="Wrtie your message..."
             />
           </label>
