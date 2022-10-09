@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <div className="w-full">
       {/* Header */}
       <Header />
-      <div className="w-full z-50 fixed bottom-0 md:top-0 ">
+      <div className="w-full z-50 fixed bottom-0 top-auto md:top-0 md:bottom-auto ">
         {/* navbar */}
         <Navbar />
       </div>
