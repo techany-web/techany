@@ -8,7 +8,7 @@ function BannerResume() {
     <section
       id="resume"
       className="py-20  w-full snap-center mx-auto
-      flex flex-col items-center justify-center text-center bg-gray-900"
+      flex flex-col items-center justify-center text-center border-b-4 bg-techany-800"
     >
       <TitleBold>Create Your Resume</TitleBold>
       <TitlePurple title="Choose a template" style="gradient" />

@@ -7,7 +7,7 @@ type TitleType = {
 
 export default function Text({ text, textStyle }: TitleType) {
   return (
-    <p
+    <div
       className={
         textStyle === "normal"
           ? "text-sm text-techany-600"
@@ -15,6 +15,6 @@ export default function Text({ text, textStyle }: TitleType) {
       }
     >
       {text}
-    </p>
+    </div>
   );
 }
