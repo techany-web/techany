@@ -13,8 +13,8 @@ export default function ActionButton({ title, style, url }: TitleType) {
         <button
           className={
             style === "primary"
-              ? "bg-rose-500 text-white text-xs px-2 py-2 uppercase font-medium rounded-full hover:bg-purple-900 duration-500 md:text-sm md:uppercase md:bg-purple-500 md:hover:bg-purple-900 md:px-5 md:py-2"
-              : "bg-white text-gray-400 text-xs px-2 py-2 uppercase font-medium rounded-full hover:text-purple-500 hover:bg-purple-100 duration-500 md:text-sm"
+              ? "bg-white text-techany-400 text-xs px-5 py-2 uppercase font-medium rounded-full hover:text-techany-500 hover:bg-techany-50 md:font-medium md:rounded-full duration-500 md:text-sm md:text-white md:bg-techany-300 md:hover:bg-techany-50 md:px-5 md:py-2"
+              : "bg-white text-techany-400 text-xs px-2 py-2 uppercase font-medium rounded-full hover:text-techany-500 hover:bg-techany-50 duration-500 md:text-sm"
           }
         >
           {title}

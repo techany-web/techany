@@ -9,29 +9,32 @@ import Blog from "../Organisms/Blog";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-full bg-local z-0  scrollbar-hide">
-      <div id="top"></div>
+    <>
       {/* Header */}
       <Header />
 
       {/* navbar */}
       <Navbar />
 
-      {/* Banner */}
-      <Banner />
+      <div className="w-full bg-local z-0  scrollbar-hide">
+        <div id="top"></div>
 
-      {/* Resume */}
-      <BannerResume />
+        {/* Banner */}
+        <Banner />
 
-      {/* Blog */}
-      <Blog />
+        {/* Resume */}
+        <BannerResume />
 
-      {/* Contact Form */}
-      <ContactForm />
+        {/* Blog */}
+        <Blog />
 
-      {/* Footer */}
-      <Footer />
-    </div>
+        {/* Contact Form */}
+        <ContactForm />
+
+        {/* Footer */}
+        <Footer />
+      </div>
+    </>
   );
 };
 
