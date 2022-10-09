@@ -1,22 +1,17 @@
 import React from "react";
-import Button from "../Atoms/Button";
-import Title from "../Atoms/Title";
-import TitlePurple from "../Atoms/TitlePurple";
-import TitlePink from "../Atoms/TitlePink";
-import TitleWhites from "../Atoms/TitleWhites";
+import TitleTechany from "../Atoms/TitleTechany";
 
 function Banner() {
   return (
     <div
       id="home"
       className="grid h-screen w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
-      snap-center
-      bg-gradient-to-r from-purple-800 to-black
+      snap-center bg-techany-400
       "
     >
       {/* question with 3 multiple choice radio buttons */}
       <div className="flex flex-col items-center text-white space-y-5">
-        <TitlePurple title="What are you looking for?" style="gradient" />
+        <TitleTechany title="What are you looking for?" style="gradient" />
       </div>
 
       {/* Boolean two buttons  */}

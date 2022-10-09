@@ -5,14 +5,11 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import ContactForm from "../components/ContactForm";
 import BannerResume from "../components/BannerResume";
+import Blog from "../Organisms/Blog";
 
 const Home: NextPage = () => {
   return (
-    <div
-      className="grid grid-cols-12 w-full mx-auto h-screen 
-      items-center justify-center text-center
-    snap-y snap-proximity overflow-scroll z-0  scrollbar-hide"
-    >
+    <div className="w-full bg-local z-0  scrollbar-hide">
       <div id="top"></div>
       {/* Header */}
       <Header />
@@ -25,6 +22,9 @@ const Home: NextPage = () => {
 
       {/* Resume */}
       <BannerResume />
+
+      {/* Blog */}
+      <Blog />
 
       {/* Contact Form */}
       <ContactForm />

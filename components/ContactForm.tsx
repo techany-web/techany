@@ -28,7 +28,7 @@ function ContactForm() {
         <label className="block">
           <textarea
             className=" text-gray-600 rounded-2xl p-3 w-60 h-60 focus-within:h-72 duration-500 ease-in-out valid:border-green-300 invalid:border-red-300 "
-            placeholder="YWhat's your message to us ?"
+            placeholder="Wrtie your message..."
           />
         </label>
         <PrimaryButton title="Send Now" style="" url="#" />
