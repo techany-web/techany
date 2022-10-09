@@ -16,7 +16,7 @@ function Navbar() {
         </Link>
       </div>
       <div
-        className="flex items-center justify-evenly text-xs col-span-12 md:col-span-10
+        className="flex items-center justify-around text-xs col-span-12 md:col-span-10 md:max-w-7xl
       md:space-x-3 md:justify-end md:items-center"
       >
         <span className=" md:hidden cursor-pointer">
