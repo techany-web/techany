@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div
       id="home"
-      className="grid h-screen w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
+      className="grid py-20 h-screen w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
       snap-center bg-techany-400
       "
     >

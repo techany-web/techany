@@ -21,7 +21,7 @@ function Navbar() {
       >
         <span className=" md:hidden cursor-pointer">
           <Link href="/#top">
-            <Image src={logo} alt="logo" width={117} height={30} />
+            <Image src={logo} alt="logo" width={78} height={20} />
           </Link>
         </span>
         <ActionButton title="Add Resume" style="" url="/#resume" />
