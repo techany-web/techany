@@ -15,7 +15,10 @@ import {
 
 function Blog() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto py-20 px-10 gap-10">
+    <div
+      id="companies"
+      className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto py-20 px-10 gap-10"
+    >
       <span className="md:col-span-3 text-center py-5">
         <TitleTechany
           title="Companies are Looking for these Skills"

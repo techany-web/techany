@@ -29,7 +29,11 @@ function Navbar() {
           <ActionButton title="For Talent" style="primary" url="/#talent" />
         </span>
         <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
-          <ActionButton title="For Companies" style="primary" url="#" />
+          <ActionButton
+            title="For Companies"
+            style="primary"
+            url="/#companies"
+          />
         </span>
         <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit md:hidden">
           <ActionButton title="Top" style="primary" url="#" />
