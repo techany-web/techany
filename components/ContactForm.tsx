@@ -32,7 +32,7 @@ function ContactForm() {
         <div className="block col-span-1 md:col-span-2">
           <label>
             <textarea
-              className=" text-gray-600 rounded-2xl p-3 w-60 md:w-96 h-60 focus-within:h-72 duration-500 ease-in-out  focus-within:shadow-techany-200 focus-within:shadow-lg focus-within:drop-shadow-xs  valid:border-green-300 invalid:border-red-300 "
+              className=" text-gray-600 rounded-2xl p-3 w-60 md:w-96 h-60 duration-500 ease-in-out  focus-within:shadow-techany-200 focus-within:shadow-lg focus-within:drop-shadow-xs  valid:border-green-300 invalid:border-red-300 "
               placeholder="Wrtie your message..."
             />
           </label>

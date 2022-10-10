@@ -13,7 +13,6 @@ function BannerResume() {
       <span className=" font-extrabold">
         <TitlePink title="Create Your Resume" style="gradient"></TitlePink>
       </span>
-
       <TitleWhites title="Get headhunted on your terms" style="gradient" />
       <div className="pt-10 max-w-7xl py-5">
         <img
@@ -21,6 +20,7 @@ function BannerResume() {
           src={"/images/banner-create-your-resume.webp"}
         />
       </div>
+
       <div className="flex space-x-10">
         <PrimaryButton title="Login" style="" url="#" />
         <PrimaryButton title="Create a Resume" style="primary" url="#" />

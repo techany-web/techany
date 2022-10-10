@@ -11,7 +11,7 @@ type TitleType = {
 
 function Paragraph({ title, text, style, textStyle }: TitleType) {
   return (
-    <div className="text-left space-y-5">
+    <div className="text-left ">
       <Title title={title} style={style} />
       <Text text={text} textStyle={textStyle} />
     </div>
