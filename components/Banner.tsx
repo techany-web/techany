@@ -1,17 +1,22 @@
 import React from "react";
-import TitleTechany from "../Atoms/TitleTechany";
+import Title from "../Atoms/Title";
+import Text from "../Atoms/Text";
 
 function Banner() {
   return (
     <div
       id="home"
-      className="grid py-20 h-[320px] md:h-[600px] md:mt-[110px] w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
+      className="grid py-20 px-10 h-[320px] md:h-[600px] md:mt-[110px] w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
       snap-center bg-techany-50
       "
     >
       {/* question with 3 multiple choice radio buttons */}
       <div className="flex flex-col items-center text-white space-y-5">
-        <TitleTechany title="What are you looking for?" style="gradient" />
+        <Title title="What are you looking for?" style="gradient" />
+        <Text
+          text="Search for a Talent , Company or Skill that you are looking for in your upcoming project or company."
+          textStyle=""
+        />
       </div>
 
       {/* Boolean two buttons  */}

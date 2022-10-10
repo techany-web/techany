@@ -1,15 +1,25 @@
 import React from "react";
 
-const MenuItem = (props: any) => {
-  return (
-    <button
-      className="bg-white text-gray-400 px-5 py-2 uppercase text-sm font-medium rounded-full 
-      hover:text-purple-500 hover:bg-purple-100 duration-500
-      md:text-sm"
-    >
-      {props.children}
-    </button>
-  );
+type TitleType = {
+  title: string;
+  style?: string;
+  url?: string;
 };
 
-export default MenuItem;
+export default function MenuItem({ title, style, url }: TitleType) {
+  return (
+    <>
+      <a href={url}>
+        <button
+          className={
+            style === "primary"
+              ? " text-techany-200 text-sm px-5 py-2 uppercase font-medium rounded-full hover:text-techany-600  md:font-medium md:rounded-full duration-500"
+              : "bg-white text-techany-400 text-xs px-2 py-2 uppercase font-medium rounded-full hover:text-techany-500 hover:bg-techany-50 duration-500 md:text-sm"
+          }
+        >
+          {title}
+        </button>
+      </a>
+    </>
+  );
+}

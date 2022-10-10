@@ -1,16 +1,16 @@
 import React from "react";
 import PrimaryButton from "../Atoms/PrimaryButton";
-import TitleTechany from "../Atoms/TitleTechany";
+import Title from "../Atoms/Title";
 
 function ContactForm() {
   return (
     <section
       id="contact"
       className=" text-white content-center col-span-12 h-screen w-full snap-center mx-auto
-      flex flex-col items-center justify-center text-center
+      flex flex-col items-center justify-center text-center py-20 md:py-60
       bg-techany-50"
     >
-      <TitleTechany title="Contact us" style="gradient" />
+      <Title title="Contact us" style="gradient" />
       <form className=" max-w-7xl m-10 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="block col-span-1">
           <label>

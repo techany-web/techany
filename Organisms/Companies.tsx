@@ -13,7 +13,7 @@ import {
   TbBrandCss3,
 } from "react-icons/tb";
 
-function Blog() {
+function Companies() {
   return (
     <div id="companies" className="px-10 py-20 md:py-60">
       <div className="md:col-span-3 text-center">
@@ -96,4 +96,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Companies;

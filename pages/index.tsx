@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import ContactForm from "../components/ContactForm";
 import BannerResume from "../components/BannerResume";
 import Blog from "../Organisms/Blog";
+import Companies from "../Organisms/Companies";
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
         <BannerResume />
 
         {/* Blog */}
-        <Blog />
+        <Companies />
 
         {/* Contact Form */}
         <ContactForm />

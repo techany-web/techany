@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/logo.png";
 import ActionButton from "../Atoms/ActionButton";
+import MenuItem from "../Atoms/MenuItem";
+import PrimaryButton from "../Atoms/PrimaryButton";
 
 function Navbar() {
   return (
@@ -16,28 +18,35 @@ function Navbar() {
         </Link>
       </div>
       <div
-        className="flex mx-auto w-full justify-around space-x-0 text-xs col-span-12 md:col-span-10 md:max-w-7xl divide-x-2 divide-techany-50 md:divide-x-0
-      md:space-x-3 md:justify-end md:items-center"
+        className="flex mx-auto w-full justify-around space-x-0 text-xs col-span-12 divide-x-2 divide-techany-50 place-items-center
+      md:space-x-3 md:justify-end md:items-center md:col-span-10 md:divide-x-0 md:max-w-7xl"
       >
         {/* <span className=" md:hidden cursor-pointer">
           <Link href="#">
             <Image src={logo} alt="logo" width={78} height={20} />
           </Link>
         </span> */}
+        <div className="text-center w-full md:w-auto py-5 hover:bg-techany-50 hover:opacity-60 md:hover:bg-inherit md:hidden cursor-pointer">
+          <Link href="#" className=" cursor-pointer">
+            <Image src={logo} width={80} height={25} />
+          </Link>
+        </div>
+        <div className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
+          <ActionButton title="Talent" style="primary" url="/#talent" />
+        </div>
+        <div className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
+          <ActionButton title="Companies" style="primary" url="/#companies" />
+        </div>
+        <div className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit hidden md:inline order-first ">
+          <MenuItem title="Home" style="primary" url="#" />
+        </div>
+        <div className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit hidden md:inline order-first ">
+          <MenuItem title="Contact" style="primary" url="/#contact" />
+        </div>
 
-        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
-          <ActionButton title="For Talent" style="primary" url="/#talent" />
-        </span>
-        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
-          <ActionButton
-            title="For Companies"
-            style="primary"
-            url="/#companies"
-          />
-        </span>
-        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit md:hidden">
-          <ActionButton title="Top" style="primary" url="#" />
-        </span>
+        <div className="text-center w-full py-5 hover:bg-techany-800 md:hidden ">
+          <ActionButton title="Contact" style="primary" url="/#contact" />
+        </div>
       </div>
     </nav>
   );
