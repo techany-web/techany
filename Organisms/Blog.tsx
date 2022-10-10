@@ -71,7 +71,7 @@ function Blog() {
         <span className="col-span-1 md:line-clamp-8 h-36">
           <Paragraph
             title="Back End Developers"
-            text="Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website."
+            text="A back-end developer builds and maintains the technology that powers those components which, together, enable the user-facing side of the website to even exist in the first place."
             style="gradient"
             textStyle="normal"
           />
