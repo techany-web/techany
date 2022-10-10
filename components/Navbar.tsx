@@ -7,8 +7,8 @@ import ActionButton from "../Atoms/ActionButton";
 function Navbar() {
   return (
     <nav
-      className="grid grid-cols-12 bg-white z-50  flex-col  text-center col-span-12 w-full mx-auto p-5
-    md:flex-row md:justify-around md:shadow-lg md:shadow-black md:drop-shadow-xl"
+      className="grid grid-cols-12 bg-white z-50 flex-col text-center col-span-12 w-full mx-auto md:p-5
+    md:flex-row md:justify-around md:shadow-sm md:shadow-techany-100 md:drop-shadow-sm"
     >
       <div className="hidden md:inline col-span-2 my-5 cursor-pointer md:my-0">
         <Link href="#">
@@ -16,7 +16,7 @@ function Navbar() {
         </Link>
       </div>
       <div
-        className="flex items-center justify-between space-x-0 text-xs col-span-12 md:col-span-10 md:max-w-7xl
+        className="flex mx-auto w-full justify-around space-x-0 text-xs col-span-12 md:col-span-10 md:max-w-7xl divide-x-2 divide-techany-50 md:divide-x-0
       md:space-x-3 md:justify-end md:items-center"
       >
         {/* <span className=" md:hidden cursor-pointer">
@@ -24,17 +24,15 @@ function Navbar() {
             <Image src={logo} alt="logo" width={78} height={20} />
           </Link>
         </span> */}
-        <ActionButton title="Add Resume" style="" url="/#resume" />
-        <ActionButton title="Contact" style="" url="/#contact" />
 
-        <span className="">
-          <ActionButton title="Log in" style="primary" url="#" />
+        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
+          <ActionButton title="For Talent" style="primary" url="/#talent" />
         </span>
-        <span className="">
-          <ActionButton title="Add" style="primary" url="#" />
+        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit ">
+          <ActionButton title="For Companies" style="primary" url="#" />
         </span>
-        <span className="md:hidden">
-          <ActionButton title="Top" style="" url="#" />
+        <span className="text-center w-full md:w-auto py-5 hover:bg-techany-800 md:hover:bg-inherit md:hidden">
+          <ActionButton title="Top" style="primary" url="#" />
         </span>
       </div>
     </nav>

@@ -5,8 +5,8 @@ function Banner() {
   return (
     <div
       id="home"
-      className="grid py-20 h-screen w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
-      snap-center bg-techany-400
+      className="grid py-20 h-[320px] md:h-[600px] md:mt-[110px] w-full space-y-5 mx-auto col-span-12 text-center place-content-center justify-items-center content-center
+      snap-center bg-techany-50
       "
     >
       {/* question with 3 multiple choice radio buttons */}
@@ -20,12 +20,12 @@ function Banner() {
         {/* search input full width */}
         <div className="flex justify-center">
           <div
-            className="flex text-lg w-72 md:w-[360px]  duration-500 items-center p-5 space-x-2 bg-white rounded-full shadow-md
-          focus-within:w-96 md:focus-within:w-[500px] focus-within:ring-2 focus-within:shadow-2xl focus-within:shadow-purple-900 ring-rose-400 "
+            className="flex text-lg w-72 md:w-[360px]  duration-500 items-center p-2 space-x-2 bg-white rounded-full shadow-md
+          focus-within:w-96 md:focus-within:w-[500px] focus-within:p-3 focus-within:shadow-2xl focus-within:shadow-techany-200  "
           >
             <input
               type="text"
-              className="w-full px-2 py-1 text-purple-600 font-bold  bg-white rounded-full 
+              className="w-full px-2 py-1 text-techany-600 font-bold  bg-white rounded-full 
               focus:outline-none
               placeholder:font-bold placeholder:text-gray-300"
               placeholder="Search for a Skill / Job title"

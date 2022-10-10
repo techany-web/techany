@@ -1,17 +1,17 @@
 import React from "react";
 import PrimaryButton from "../Atoms/PrimaryButton";
-import Title from "../Atoms/Title";
+import TitleTechany from "../Atoms/TitleTechany";
 import Paragraph from "../Molecules/Paragraph";
 
 function Blog() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto py-20 px-10 gap-10">
-      <h1 className="md:col-span-3 text-center py-20">
-        <Title
+      <span className="md:col-span-3 text-center py-20">
+        <TitleTechany
           title="Research, Write, and Everything in Between"
           style="gradient"
         />
-      </h1>
+      </span>
       <div>
         <span className="col-span-1 md:line-clamp-4 h-32">
           <Paragraph

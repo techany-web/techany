@@ -11,8 +11,8 @@ export default function TitlePink({ title, style }: TitleType) {
     <h2
       className={
         style === "gradient"
-          ? "text-transparent uppercase font-normal text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-pink-400 to-pink-900 drop-shadow-xl shadow-black"
-          : "uppercase text-gray-500 text-lg md:text-xl lg:text-2xl font-normal"
+          ? "text-transparent uppercase text-xl md:text-4xl bg-clip-text bg-gradient-to-r from-pink-100 to-pink-500 drop-shadow-xl shadow-black"
+          : "uppercase text-pink-500 text-xl md:text-2xl font-normal"
       }
     >
       {title}
